@@ -13,7 +13,9 @@
   "keywords": [
     "theme",
     "dark",
-    "november"
+    "november",
+    "amber",
+    "palenight"
   ],
   "contributes": {
     "themes": [
@@ -23,6 +25,17 @@
         "path": "./themes/november.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "publish:patch": "vsce publish patch",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major",
+    "ls": "vsce ls"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
   },
   "repository": {
     "type": "git",
