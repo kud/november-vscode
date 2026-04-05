@@ -1,0 +1,32 @@
+{
+  "name": "november-vscode",
+  "displayName": "November",
+  "description": "A dark theme with warm amber accents",
+  "version": "0.1.0",
+  "publisher": "kud",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "november"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "November",
+        "uiTheme": "vs-dark",
+        "path": "./themes/november.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kud/november-vscode"
+  },
+  "license": "MIT"
+}
