@@ -29,6 +29,7 @@
   },
   "scripts": {
     "package": "mkdir -p build && vsce package --no-dependencies --out build/",
+    "install-ext": "npm run package && code --install-extension build/november-vscode-$(node -p \"require('./package.json').version\").vsix --force",
     "ls": "vsce ls",
     "release:patch": "npm version patch --no-git-tag-version && V=$(node -p \"require('./package.json').version\") && git add package.json package-lock.json && git commit -m \"🔖 chore(release): bump to $V\" && git tag \"v$V\" && git push && git push --tags && echo \"Bumped to v$V\"",
     "release:minor": "npm version minor --no-git-tag-version && V=$(node -p \"require('./package.json').version\") && git add package.json package-lock.json && git commit -m \"🔖 chore(release): bump to $V\" && git tag \"v$V\" && git push && git push --tags && echo \"Bumped to v$V\"",
