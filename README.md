@@ -74,9 +74,9 @@ npm run ls
 
 ```sh
 # Bump version, commit, tag, and push
-npm run release:patch   # 0.1.0 → 0.1.1
-npm run release:minor   # 0.1.0 → 0.2.0
-npm run release:major   # 0.1.0 → 1.0.0
+npm run release:patch   # bumps patch (x.x.N)
+npm run release:minor   # bumps minor (x.N.0)
+npm run release:major   # bumps major (N.0.0)
 
 # Package and open the marketplace upload page
 npm run marketplace
