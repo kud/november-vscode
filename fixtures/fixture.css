@@ -1,0 +1,37 @@
+:root {
+  --color-bg: #21222c;
+  --color-surface: #2a2b38;
+  --color-border: #272a38;
+  --color-accent: #ed7249;
+  --color-accent-hover: #b84e2e;
+  --color-fg: #c8d5e0;
+  --color-muted: #b8c5d0;
+}
+
+.panel {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-fg);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.panel:hover {
+  border-color: var(--color-accent);
+}
+
+.panel a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.panel a:hover {
+  color: var(--color-accent-hover);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+}

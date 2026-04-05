@@ -5,3 +5,4 @@ node_modules/**
 build
 build/**
 images/screenshot.png
+fixtures/**

@@ -1,0 +1,25 @@
+{
+  "name": "november",
+  "displayName": "November",
+  "version": "1.0.9",
+  "palette": {
+    "background": "#21222c",
+    "selection": "#30364a",
+    "border": "#272a38",
+    "surface": "#2a2b38",
+    "accent": "#ed7249",
+    "accentHover": "#b84e2e",
+    "foreground": "#c8d5e0",
+    "muted": "#b8c5d0"
+  },
+  "surfaces": [
+    "editor",
+    "sidebar",
+    "activityBar",
+    "statusBar",
+    "titleBar",
+    "panel",
+    "terminal"
+  ],
+  "floating": ["quickInput", "dropdown", "tooltip", "breadcrumbPicker"]
+}
