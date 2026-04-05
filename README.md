@@ -60,6 +60,8 @@ code --install-extension kud.november-vscode
 # Install tooling
 npm install
 
+Hello!
+
 # Preview — symlink the repo into your VS Code extensions folder, then reload the window
 ln -s "$(pwd)" ~/.vscode/extensions/november-vscode
 
