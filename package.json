@@ -4,6 +4,7 @@
   "description": "A dark theme with warm amber accents",
   "version": "0.1.0",
   "publisher": "kud",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -27,12 +28,12 @@
     ]
   },
   "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish",
-    "publish:patch": "vsce publish patch",
-    "publish:minor": "vsce publish minor",
-    "publish:major": "vsce publish major",
-    "ls": "vsce ls"
+    "package": "vsce package --no-dependencies --out build/",
+    "ls": "vsce ls",
+    "release:patch": "npm version patch --no-git-tag-version && V=$(node -p \"require('./package.json').version\") && git add package.json package-lock.json && git commit -m \"🔖 chore(release): bump to $V\" && git tag \"v$V\" && git push && git push --tags && echo \"Bumped to v$V\"",
+    "release:minor": "npm version minor --no-git-tag-version && V=$(node -p \"require('./package.json').version\") && git add package.json package-lock.json && git commit -m \"🔖 chore(release): bump to $V\" && git tag \"v$V\" && git push && git push --tags && echo \"Bumped to v$V\"",
+    "release:major": "npm version major --no-git-tag-version && V=$(node -p \"require('./package.json').version\") && git add package.json package-lock.json && git commit -m \"🔖 chore(release): bump to $V\" && git tag \"v$V\" && git push && git push --tags && echo \"Bumped to v$V\"",
+    "marketplace": "npm run package && open https://marketplace.visualstudio.com/manage/publishers/kud"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.0.0"

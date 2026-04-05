@@ -71,14 +71,13 @@ npm run ls
 ### Publishing
 
 ```sh
-# Patch release (0.1.0 → 0.1.1)
-npm run publish:patch
+# Bump version, commit, tag, and push
+npm run release:patch   # 0.1.0 → 0.1.1
+npm run release:minor   # 0.1.0 → 0.2.0
+npm run release:major   # 0.1.0 → 1.0.0
 
-# Minor release (0.1.0 → 0.2.0)
-npm run publish:minor
-
-# Major release (0.1.0 → 1.0.0)
-npm run publish:major
+# Package and open the marketplace upload page
+npm run marketplace
 ```
 
 ---
