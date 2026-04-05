@@ -1,4 +1,4 @@
-<img src="images/icon.png" alt="November icon" width="128" />
+<img src="https://raw.githubusercontent.com/kud/november-vscode/main/images/icon.png" alt="November icon" width="128" />
 
 # November
 
@@ -8,7 +8,7 @@
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/kud.november-vscode?style=flat-square&color=ed7249&labelColor=21222c)
 ![Rating](https://img.shields.io/visual-studio-marketplace/r/kud.november-vscode?style=flat-square&color=ed7249&labelColor=21222c)
 
-![November theme screenshot](images/screenshot.png)
+![November theme screenshot](https://raw.githubusercontent.com/kud/november-vscode/main/images/screenshot.png)
 
 ---
 
