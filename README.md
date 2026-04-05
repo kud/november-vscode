@@ -81,8 +81,6 @@ npm run publish:minor
 npm run publish:major
 ```
 
-> Requires a [Visual Studio Marketplace publisher token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token). Run `npx vsce login kud` once to authenticate.
-
 ---
 
 ## License
