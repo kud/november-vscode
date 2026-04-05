@@ -28,6 +28,36 @@ npm run marketplace   # package + open marketplace upload page
 npm run release:patch # bump version, commit, tag, push
 ```
 
+# November VSCode Theme — Claude Context
+
+## Palette
+
+| Role                   | Hex       |
+| ---------------------- | --------- |
+| Background             | `#21222c` |
+| Selection / highlights | `#30364a` |
+| Structural borders     | `#272a38` |
+| Floating surfaces      | `#2a2b38` |
+| Accent (orange)        | `#ed7249` |
+| Accent hover (darker)  | `#b84e2e` |
+| Foreground             | `#c8d5e0` |
+| Muted text             | `#b8c5d0` |
+
+## Architecture
+
+- `themes/november.json` — all edits go here, split into two sections:
+  - `colors` — workbench UI (borders, sidebar, tabs, terminal, etc.) — fully reviewed and on-palette
+  - `tokenColors` — 166 TextMate syntax rules inherited from Palenight Operator — intentionally untouched
+- Syntax colours (purple keywords, blue functions, yellow-green strings) are Palenight Operator and should be kept as-is
+
+## Workflow
+
+```sh
+npm run install-ext   # package + install locally, then reload VS Code window
+npm run marketplace   # package + open marketplace upload page
+npm run release:patch # bump version, commit, tag, push
+```
+
 ## Key theming decisions
 
 ### Surfaces
