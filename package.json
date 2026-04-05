@@ -2,7 +2,7 @@
   "name": "november-vscode",
   "displayName": "November",
   "description": "A dark theme with warm amber accents",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "kud",
   "icon": "images/icon.png",
   "engines": {
