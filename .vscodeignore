@@ -2,4 +2,5 @@
 .gitignore
 .claude/**
 node_modules/**
+build
 build/**
