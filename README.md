@@ -1,3 +1,5 @@
+<img src="images/icon.png" alt="November icon" width="128" />
+
 # November
 
 > A dark VS Code theme with warm amber accents — calm, focused, and easy on the eyes.
