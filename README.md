@@ -13,8 +13,6 @@
 
 </div>
 
-![November theme screenshot](images/screenshot.png)
-
 ## Features
 
 - **Warm amber accents** — a signature amber palette that keeps highlights visible without eye strain
@@ -22,6 +20,8 @@
 - **Single focused variant** — one well-tuned `vs-dark` theme rather than a sprawling set of half-finished alternatives
 - **Consistent syntax** — carefully mapped token colours across JavaScript, TypeScript, HTML, CSS, and more
 - **Soft UI chrome** — activity bar, sidebar, and panel tones chosen to recede and let code take centre stage
+
+![November theme screenshot](images/screenshot.png)
 
 ## Install
 
